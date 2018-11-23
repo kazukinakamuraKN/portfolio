@@ -66,6 +66,7 @@
 import Snow from './components/Snow.vue'
 
 export default {
+  name: 'App',
   components: {
     Snow
   },
