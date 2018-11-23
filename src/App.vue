@@ -121,13 +121,13 @@ svg {
 
 .icon-wrapper {
   height: 100%;
-  width: 100%;
+  width: 16.6%;
   background-color: transparent !important;
 }
 
 .icon-space {
   height: 100%;
-  width: 5vw;
+  width: 16.6%;
   background-color: transparent !important;
 }
 
@@ -139,7 +139,7 @@ svg {
   position: relative;
   flex: 1;
   height: 100%;
-  width: 15vh;
+  width: 100%;
   display: inline-block;
   background-color: transparent !important;
 }
@@ -147,6 +147,7 @@ svg {
 #icon {
   position: relative;
   z-index: 1;
+  width: 100%;
 }
 
 .inner {
@@ -161,7 +162,7 @@ svg {
 }
 
 .myname {
-  font-size: calc(3vw + 2rem);
+  font-size: calc(4vw + 1.5rem);
   font-weight: 700;
   vertical-align: middle;
   display: table-cell;
@@ -180,6 +181,7 @@ svg {
 }
 
 .in2 {
+  width: 100%;
   height: 8vh;
   display: flex;
   display: -moz-flex;
@@ -220,11 +222,11 @@ svg {
 
 @keyframes changemeButtonAcrion {
   0% { transform:translateY(0) }
-  5% { transform:translateY(0) }
+  5% { transform:translateY(-5px) }
   10% { transform:translateY(0) }
   20% { transform:translateY(-5px) }
   25% { transform:translateY(0) }
-  30% { transform:translateY(-5px) }
+  30% { transform:translateY(0) }
   50% { transform:translateY(0) }
   100% { transform:translateY(0) }
 }

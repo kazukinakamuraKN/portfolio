@@ -14,7 +14,7 @@ export default {
   props: ['sendColor'],
   data() {
     return {
-      nowColor: '#0f00f0'
+      nowColor: '#ffffff'
     }
   },
   components: {
