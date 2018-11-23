@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Snow from '@/components/Snow'
+import App from '@/App'
 
 Vue.use(Router)
 
@@ -8,9 +8,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      components: {
-    	  snow: Snow
-      }
+      components: App
     }
   ]
 })
